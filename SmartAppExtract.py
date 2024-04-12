@@ -41,6 +41,3 @@ def artist_id_search(artist_name : str, type : str, limit: int = 20, url: str = 
        print(f"No artist with this name {artist_name} exists. Please check name and try again")
        return None
     return json_result
-
-json_test = artist_id_search(artist_name= 'fela', type= 'artist')
-print(json_test)
