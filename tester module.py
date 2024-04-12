@@ -1,5 +1,4 @@
 # Putting Extract and Transform Functions in A Class
-
 # Import Necessary Libraries
 from dotenv import load_dotenv
 import os
@@ -13,12 +12,12 @@ load_dotenv()
 client_id = os.getenv("CLIENT_ID")
 secret_id = os.getenv("CLIENT_SECRET")
 
+
 class smartappextract:
     def __init__(self):
         pass
 
-    
-        
+
 def extract_token(url: str = "https://accounts.spotify.com/") -> str:
     client_id = os.getenv("CLIENT_ID")
     secret_id = os.getenv("CLIENT_SECRET")
